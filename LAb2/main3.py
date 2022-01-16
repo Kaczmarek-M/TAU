@@ -1,3 +1,6 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+
 driver = webdriver.Chrome(executable_path='C:\chromedriver 97.0.4692.71\chromedriver.exe')
 driver.get('https://www.olx.pl/')
 driver.maximize_window()
