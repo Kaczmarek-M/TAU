@@ -7,10 +7,10 @@ driver = webdriver.Chrome(executable_path='C:\chromedriver 97.0.4692.71\chromedr
 driver.get('https://www.x-kom.pl')
 driver.maximize_window()
 
-check = driver.find_element(By.LINK_TEXT, "Pomoc i kontakt")
+check = driver.find_element(By.LINK_TEXT, "Twoje listy")
 check.click()
 
-check = driver.find_element(By.LINK_TEXT, 'Najczęściej zadawane')
+check = driver.find_element(By.LINK_TEXT, 'Koszyk')
 check.click()
 
 driver.quit()
