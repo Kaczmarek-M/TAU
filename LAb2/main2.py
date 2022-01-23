@@ -7,7 +7,7 @@ driver.get('https://www.ceneo.pl')
 driver.maximize_window()
 
 
-check = driver.find_element(By.Id, 'form-head-search-q').send_keys('laptopy')
+check = driver.find_element(By.ID, 'form-head-search-q').send_keys('laptopy')
 check.click()
 
 driver.quit()
